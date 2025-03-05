@@ -1,0 +1,22 @@
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>PICTURE ELEMENT</title>
+    </head>
+    <body>
+      <h2>The picture Elements</h2>
+<h3>The HTML <picture> element allows you to display different pictures for different devices or screen sizes.</h3>
+      <picture>
+        <source media="(min-width: 500)" srcset="fortuner.jpg" />
+
+        <source media="(min-width: 500)" srcset="honda-civic.jpg" />
+        <img src="lamborghani.webp" alt="car" />
+
+        <source media="(min-width: 500)" srcset="lamborghani.webp" />
+        <img src="fortuner.jpg" alt="car" />
+      </picture>
+    </body>
+  </html>
+</picture>
